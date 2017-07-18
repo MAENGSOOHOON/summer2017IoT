@@ -27,6 +27,10 @@
         <activity
             android:name=".PMActivity"
             android:label="@string/title_activity_pm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HealthActivity"
+            android:label="@string/title_activity_health"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
