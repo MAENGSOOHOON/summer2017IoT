@@ -8,4 +8,5 @@
     <string name="title_activity_login">Log In</string>
     <string name="title_activity_pm">PM</string>
     <string name="title_activity_health">Health</string>
+    <string name="title_activity_air">Air</string>
 </resources>
