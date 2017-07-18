@@ -95,7 +95,8 @@
                 android:text="Now"
                 android:textColor="#ffffff"
                 android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="nowClick"/>
         </LinearLayout>
 
         <LinearLayout

@@ -110,4 +110,9 @@ public class MainActivity extends AppCompatActivity
         Intent hisIntent = new Intent(this, HistoryActivity.class);
         startActivity(hisIntent);
     }
+
+    public void nowClick(View v){
+        Intent nowIntent = new Intent(this, NowActivity.class);
+        startActivity(nowIntent);
+    }
 }
