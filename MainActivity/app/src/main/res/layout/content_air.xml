@@ -4,83 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#1E3269"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.missy.mainactivity.MainActivity">
+    tools:context="com.example.missy.mainactivity.AirActivity"
+    tools:showIn="@layout/app_bar_air">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.5"
+        android:layout_weight="0.2"
+
         >
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="PM"
-            android:textColor="#ffffff"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:onClick="pmClick"
-            android:id="@+id/MovePm"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/airGr"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+
+            ></com.github.mikephil.charting.charts.LineChart>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.5"
-        >
+        android:layout_weight="0.8">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
+
             <TextView
+                android:id="@+id/co"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Health"
+                android:gravity="center"
+                android:text="CO"
+                android:onClick="coClick"
                 android:textColor="#ffffff"
-                android:textSize="35dp"
                 android:textStyle="bold"
-                android:gravity="center"
-                android:id="@+id/MoveHel"
-                android:onClick="heClick"/>
+                android:textSize="30dp"/>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
+
             <TextView
+                android:id="@+id/so2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Air"
+                android:gravity="center"
+                android:text="SO2"
+                android:onClick="so2Click"
                 android:textColor="#ffffff"
-                android:textSize="35dp"
                 android:textStyle="bold"
-                android:gravity="center"
-                android:onClick="airClick"/>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="0.6">
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:gravity="center"
-                android:text="Search"
-                android:textColor="#ffffff"
-                android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textSize="30dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -89,29 +70,33 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/no2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
-                android:text="Now"
+                android:text="NO2"
+                android:onClick="no2Click"
                 android:textColor="#ffffff"
-                android:textSize="35dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:gravity="center"
-                android:text="History"
-                android:textColor="#ffffff"
-                android:textSize="35dp"
                 android:textStyle="bold"
-                android:onClick="hisClick"/>
+                android:textSize="30dp"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/o3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="O3"
+                android:onClick="o3Click"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>

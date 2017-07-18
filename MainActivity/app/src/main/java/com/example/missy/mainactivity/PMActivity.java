@@ -1,6 +1,5 @@
 package com.example.missy.mainactivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,13 +13,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
+public class PMActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pm);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -47,7 +46,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.pm, menu);
         return true;
     }
 
@@ -89,25 +88,5 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    public void pmClick(View v){
-        Intent pmIntent = new Intent(this, PMActivity.class);
-        startActivity(pmIntent);
-    }
-
-    public void heClick(View v){
-        Intent helIntent = new Intent(this, HealthActivity.class);
-        startActivity(helIntent);
-    }
-
-    public void airClick(View v){
-        Intent airIntent = new Intent(this, AirActivity.class);
-        startActivity(airIntent);
-    }
-
-    public void hisClick(View v){
-        Intent hisIntent = new Intent(this, HistoryActivity.class);
-        startActivity(hisIntent);
     }
 }

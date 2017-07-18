@@ -13,14 +13,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class LoginActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
+    private Button btn_log;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -32,8 +34,17 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        btn_log = (Button) findViewById(R.id.Login);
+        btn_log.setOnClickListener(this);
     }
 
+    public void onClick(View v){
+        if(v==btn_log){
+            Intent moveMain = new Intent(this,MainActivity.class);
+            startActivity(moveMain);
+        }
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -47,7 +58,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.login, menu);
         return true;
     }
 
@@ -89,25 +100,5 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    public void pmClick(View v){
-        Intent pmIntent = new Intent(this, PMActivity.class);
-        startActivity(pmIntent);
-    }
-
-    public void heClick(View v){
-        Intent helIntent = new Intent(this, HealthActivity.class);
-        startActivity(helIntent);
-    }
-
-    public void airClick(View v){
-        Intent airIntent = new Intent(this, AirActivity.class);
-        startActivity(airIntent);
-    }
-
-    public void hisClick(View v){
-        Intent hisIntent = new Intent(this, HistoryActivity.class);
-        startActivity(hisIntent);
     }
 }
