@@ -243,8 +243,9 @@
                         android:layout_gravity="center_vertical"
                         android:background="#E1F6FA"
                         android:text="Login"
-                        android:textSize="20dp" />
-                    />
+                        android:textSize="20dp"
+                        android:onClick="LoginClick"/>
+
 
                 </LinearLayout>
 
