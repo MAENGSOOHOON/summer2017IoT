@@ -35,6 +35,10 @@
         <activity
             android:name=".AirActivity"
             android:label="@string/title_activity_air"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -7,15 +7,70 @@
     android:background="#1E3269"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.missy.mainactivity.AirActivity"
-    tools:showIn="@layout/app_bar_air">
+    tools:context="com.example.missy.mainactivity.HistoryActivity"
+    tools:showIn="@layout/app_bar_history">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.2"
+        android:layout_weight="0.8">
 
-        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="20170716"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.8">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="~"
+                    android:textSize="30dp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.2">
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/airGr"
@@ -30,13 +85,14 @@
         android:layout_height="fill_parent"
         android:layout_weight="0.8">
 
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/co"
+                android:id="@+id/textView2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -50,7 +106,6 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/so2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -64,7 +119,6 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/no2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -78,12 +132,25 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/o3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="O3"
                 android:onClick="o3Click"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/health"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Health"
+                android:onClick="heClick"/>
         </LinearLayout>
 
     </LinearLayout>
