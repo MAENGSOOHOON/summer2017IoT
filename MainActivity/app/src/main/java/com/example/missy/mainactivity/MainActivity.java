@@ -1,5 +1,6 @@
 package com.example.missy.mainactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -88,5 +89,25 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void pmClick(View v){
+        Intent pmIntent = new Intent(this, PMActivity.class);
+        startActivity(pmIntent);
+    }
+
+    public void heClick(View v){
+        Intent helIntent = new Intent(this, HealthActivity.class);
+        startActivity(helIntent);
+    }
+
+    public void airClick(View v){
+        Intent airIntent = new Intent(this, AirActivity.class);
+        startActivity(airIntent);
+    }
+
+    public void hisClick(View v){
+        Intent hisIntent = new Intent(this, HistoryActivity.class);
+        startActivity(hisIntent);
     }
 }

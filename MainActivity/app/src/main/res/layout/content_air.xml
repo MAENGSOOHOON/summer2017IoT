@@ -41,7 +41,10 @@
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="CO"
-                android:onClick="coClick"/>
+                android:onClick="coClick"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -55,7 +58,10 @@
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="SO2"
-                android:onClick="so2Click"/>
+                android:onClick="so2Click"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -69,7 +75,10 @@
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="NO2"
-                android:onClick="no2Click"/>
+                android:onClick="no2Click"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -83,7 +92,10 @@
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="O3"
-                android:onClick="o3Click"/>
+                android:onClick="o3Click"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
         </LinearLayout>
 
     </LinearLayout>

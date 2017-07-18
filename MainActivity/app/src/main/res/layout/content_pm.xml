@@ -148,7 +148,7 @@
                     android:gravity="center_vertical"
                     android:text="Level1 : Good"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
 
             </LinearLayout>
 
@@ -199,7 +199,7 @@
                     android:gravity="center_vertical"
                     android:text="Level2 : Moderate"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -251,7 +251,7 @@
                     android:gravity="center_vertical"
                     android:text="Level3 : Unhealthy for Sensitive"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -302,7 +302,7 @@
                     android:gravity="center_vertical"
                     android:text="Level4  :  Unhealthy"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -352,7 +352,7 @@
                     android:gravity="center_vertical"
                     android:text="Level5 : Very Unhealthy"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -402,7 +402,7 @@
                     android:gravity="center_vertical"
                     android:text="Level6 : Hazardous"
                     android:textColor="#ffffff"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

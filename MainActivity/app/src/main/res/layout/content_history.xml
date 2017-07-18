@@ -92,7 +92,7 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/co"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -109,6 +109,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/so2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -125,6 +126,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/no2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
@@ -141,6 +143,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/o3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"

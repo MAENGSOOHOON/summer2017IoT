@@ -9,4 +9,109 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.missy.mainactivity.MainActivity">
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="PM"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="pmClick"
+            android:id="@+id/MovePm"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Health"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/MoveHel"
+                android:onClick="heClick"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Air"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="airClick"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.6">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Search"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Now"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="History"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:onClick="hisClick"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

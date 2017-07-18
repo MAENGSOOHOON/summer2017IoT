@@ -130,20 +130,57 @@ public class AirActivity extends AppCompatActivity
     public void coClick(View v){
         TextView coText = (TextView)findViewById(R.id.co);
         coText.setBackgroundColor(Color.parseColor("#E1F6FA"));
+
+        TextView so2Text = (TextView)findViewById(R.id.so2);
+        so2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView no2Text = (TextView)findViewById(R.id.no2);
+        no2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView o3Text = (TextView)findViewById(R.id.o3);
+        o3Text.setBackgroundColor(Color.parseColor("#1E3269"));
     }
 
     public void so2Click(View v){
+        TextView coText = (TextView)findViewById(R.id.co);
+        coText.setBackgroundColor(Color.parseColor("#1E3269"));
+
         TextView so2Text = (TextView)findViewById(R.id.so2);
         so2Text.setBackgroundColor(Color.parseColor("#E1F6FA"));
+
+        TextView no2Text = (TextView)findViewById(R.id.no2);
+        no2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView o3Text = (TextView)findViewById(R.id.o3);
+        o3Text.setBackgroundColor(Color.parseColor("#1E3269"));
     }
 
     public void no2Click(View v){
+        TextView coText = (TextView)findViewById(R.id.co);
+        coText.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView so2Text = (TextView)findViewById(R.id.so2);
+        so2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
         TextView no2Text = (TextView)findViewById(R.id.no2);
         no2Text.setBackgroundColor(Color.parseColor("#E1F6FA"));
+
+        TextView o3Text = (TextView)findViewById(R.id.o3);
+        o3Text.setBackgroundColor(Color.parseColor("#1E3269"));
     }
 
     public void o3Click(View v){
+        TextView coText = (TextView)findViewById(R.id.co);
+        coText.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView so2Text = (TextView)findViewById(R.id.so2);
+        so2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
+        TextView no2Text = (TextView)findViewById(R.id.no2);
+        no2Text.setBackgroundColor(Color.parseColor("#1E3269"));
+
         TextView o3Text = (TextView)findViewById(R.id.o3);
         o3Text.setBackgroundColor(Color.parseColor("#E1F6FA"));
+
     }
 }
