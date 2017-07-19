@@ -1,0 +1,7 @@
+#Wed Jul 19 11:27:39 KST 2017
+base.0=C\:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\tom\\BluetoothChat1\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cba1f5d9d54e027247194a26f5cec56a96d3ec78
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\tom\\BluetoothChat1\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9e4039012b8f793678184cdaca7c7026b3dbd95f\\classes.dex
+base.1=C\:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\tom\\BluetoothChat1\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9e4039012b8f793678184cdaca7c7026b3dbd95f
+file.0=C\:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\tom\\BluetoothChat1\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cba1f5d9d54e027247194a26f5cec56a96d3ec78\\classes.dex
