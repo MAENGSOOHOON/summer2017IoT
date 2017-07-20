@@ -129,19 +129,21 @@ public class BlueToothActivity extends AppCompatActivity
         try{
 // 소켓 생성
             mSocket = mRemoteDevice.createRfcommSocketToServiceRecord(uuid);
+            Log.v("소켓생성","why?");
 // RFCOMM 채널을 통한 연결
             mSocket.connect();
-            Log.v("connect오류","ㅁㄴㅇ린ㅇ1");
-
+            Log.v("rfcomm채널 연결","why?");
 // 데이터 송수신을 위한 스트림 얻기
             mOutputStream = mSocket.getOutputStream();
             mInputStream = mSocket.getInputStream();
-            Log.v("connect오류2","ㅁㄴㅇ린ㅇ1");
+            Log.v("데이터 송수신을 위한 스트림","why?");
 // 데이터 수신 준비
             beginListenForData();
+            Log.v("데이터 수신 준비","why?");
         }catch(Exception e){
 // 블루투스 연결 중 오류 발생
             Toast.makeText(getApplicationContext(),"블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
+            Log.v("블루투스 연결 중 오류","why?");
             finish(); // 어플리케이션 종료
         }
     }
