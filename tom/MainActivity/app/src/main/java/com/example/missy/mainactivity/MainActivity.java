@@ -1,5 +1,7 @@
 package com.example.missy.mainactivity;
 
+import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -115,4 +117,5 @@ public class MainActivity extends AppCompatActivity
         Intent nowIntent = new Intent(this, NowActivity.class);
         startActivity(nowIntent);
     }
+    
 }
