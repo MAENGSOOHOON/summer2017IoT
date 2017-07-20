@@ -134,24 +134,39 @@ public class BlueToothActivity extends AppCompatActivity
         try {
 // 소켓 생성
             mSocket = mRemoteDevice.createInsecureRfcommSocketToServiceRecord(uuid);
-           // Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"create socket.", Toast.LENGTH_LONG).show();
         } catch (IOException e1) {
-            Log.v("socket not created", "gg");
             e1.printStackTrace();
+            Toast.makeText(getApplicationContext(),"create not created", Toast.LENGTH_LONG).show();
         }
         try {
             mSocket.connect();
+            try{// 데이터 송수신을 위한 스트림 얻기
+                mOutputStream = mSocket.getOutputStream();
+                mInputStream = mSocket.getInputStream();
+                Toast.makeText(getApplicationContext(),"get stream", Toast.LENGTH_LONG).show();
+
+                beginListenForData();
+                Toast.makeText(getApplicationContext(),"ready send,receive stream", Toast.LENGTH_LONG).show();
+            }
+            catch(IOException e)
+            {
+                Toast.makeText(getApplicationContext(),"no stream", Toast.LENGTH_LONG).show();
+            }
+
         } catch (IOException e) {
             try {
                 mSocket.close();
-                Log.v("ff", "Cannot connect");
+                Toast.makeText(getApplicationContext()," cannot connect ", Toast.LENGTH_LONG).show();
             } catch (IOException e1) {
-                Log.v("hh", "Socket not closed");
+                Toast.makeText(getApplicationContext(),"cannot closed socket", Toast.LENGTH_LONG).show();
                 e1.printStackTrace();
             }
         }
+
+
     }
-        /*
+/*
 // RFCOMM 채널을 통한 연결
             mSocket.connect();
             Log.v("rfcomm채널 연결","why?");
@@ -168,7 +183,7 @@ public class BlueToothActivity extends AppCompatActivity
             Log.v("블루투스 연결 중 오류","why?");
             finish(); // 어플리케이션 종료
         }
-    }
+}
 */
     void beginListenForData(){ //데이터 수신
         final Handler handler = new Handler();
@@ -182,7 +197,7 @@ public class BlueToothActivity extends AppCompatActivity
                 while(!Thread.currentThread().isInterrupted()){
                     try {
                         int bytesAvailable = mInputStream.available(); // 수신 데이터 확인
-                        if(bytesAvailable > 0){
+                        if(bytesAvailable > 0){//데이터가 수신된 경우
                             byte[] packetBytes = new byte[bytesAvailable];
                             mInputStream.read(packetBytes);
                             for(int i = 0; i < bytesAvailable; i++){
@@ -208,8 +223,8 @@ public class BlueToothActivity extends AppCompatActivity
                     catch (IOException ex){
 // 데이터 수신 중 오류 발생
                         Toast.makeText(getApplicationContext(),"데이터 수신 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
-                        finish();
-                    }
+                    finish();
+                }
                 }
             }
         });
