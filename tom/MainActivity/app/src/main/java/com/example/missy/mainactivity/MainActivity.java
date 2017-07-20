@@ -115,4 +115,5 @@ public class MainActivity extends AppCompatActivity
         Intent nowIntent = new Intent(this, NowActivity.class);
         startActivity(nowIntent);
     }
+
 }
