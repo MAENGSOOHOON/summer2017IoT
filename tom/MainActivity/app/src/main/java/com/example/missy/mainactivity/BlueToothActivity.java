@@ -125,7 +125,6 @@ public class BlueToothActivity extends AppCompatActivity
     void connectToSelectedDevice(String selectedDeviceName) { //소켓
         mRemoteDevice = getDeviceFromBondedList(selectedDeviceName);
         UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-        Log.v("오류", "ㅁㄴㅇ린ㅇ1");
 /*
         if(mRemoteDevice.getBondState()==mRemoteDevice.BOND_BONDED)
         {
