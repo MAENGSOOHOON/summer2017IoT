@@ -5,26 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1E3269"
+    android:background="#ffc8cd"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.missy.mainactivity.MainActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="0.5"
+        android:layout_height="204dp"
+        android:background="#ffffff"
         >
-
         <TextView
-            android:id="@+id/MovePm"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
+            android:text="PM"
+            android:textSize="35dp"
+            android:textStyle="bold"
             android:gravity="center"
             android:onClick="pmClick"
-            android:text="PM"
-            android:textColor="#ffffff"
-            android:textSize="35dp"
-            android:textStyle="bold" />
+            android:id="@+id/MovePm"/>
     </LinearLayout>
 
     <LinearLayout
@@ -36,34 +34,31 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1">
-
+            android:layout_weight="1"
+            android:background="#ffffff">
             <TextView
-                android:id="@+id/MoveHel"
                 android:layout_width="fill_parent"
-                android:layout_height="227dp"
-                android:gravity="center"
-                android:onClick="heClick"
+                android:layout_height="fill_parent"
                 android:text="Health"
-                android:textColor="#ffffff"
                 android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/MoveHel"
+                android:onClick="heClick"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1">
-
+            android:layout_weight="1"
+            android:background="#ffffff">
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:gravity="center"
-                android:onClick="airClick"
                 android:text="Air"
-                android:textColor="#ffffff"
                 android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="airClick"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -75,15 +70,15 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="#ffffff">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
                 android:text="Search"
-                android:textColor="#ffffff"
                 android:textSize="35dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -91,35 +86,33 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="#ffffff">
 
             <TextView
-                android:id="@+id/textView6"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
-                android:onClick="nowClick"
                 android:text="Now"
-                android:textColor="#ffffff"
                 android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="nowClick"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="#ffffff">
 
             <TextView
-                android:id="@+id/textView5"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
-                android:onClick="hisClick"
                 android:text="History"
-                android:textColor="#ffffff"
                 android:textSize="35dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="hisClick"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

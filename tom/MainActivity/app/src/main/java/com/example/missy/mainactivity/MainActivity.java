@@ -72,18 +72,27 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.nav_pm) {
+            Intent mov_pm = new Intent(this,PMActivity.class);
+            startActivity(mov_pm);
+        } else if (id == R.id.nav_health) {
+            Intent mov_hel = new Intent(this, HealthActivity.class);
+            startActivity(mov_hel);
+        } else if (id == R.id.nav_air) {
+            Intent mov_air = new Intent(this, AirActivity.class);
+            startActivity(mov_air);
+        } else if (id == R.id.nav_now) {
+            Intent mov_new = new Intent(this, NowActivity.class);
+            startActivity(mov_new);
+        } else if (id == R.id.nav_History) {
+            Intent mov_his = new Intent(this, HistoryActivity.class);
+            startActivity(mov_his);
+        } else if (id == R.id.nav_login) {
+            Intent mov_log = new Intent(this, LoginActivity.class);
+            startActivity(mov_log);
+        } else if(id == R.id.nav_blue){
+            Intent mov_bl = new Intent(this, BlueToothActivity.class);
+            startActivity(mov_bl);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -115,5 +124,4 @@ public class MainActivity extends AppCompatActivity
         Intent nowIntent = new Intent(this, NowActivity.class);
         startActivity(nowIntent);
     }
-
 }
