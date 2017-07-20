@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_pm"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
             android:title="PM" />
         <item
             android:id="@+id/nav_health"
@@ -27,14 +27,9 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="History" />
         <item
-            android:id="@+id/nav_blue"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Bluetooth" />
-        <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Log Out" />
-
+            android:title="Log In" />
     </group>
 
 </menu>
