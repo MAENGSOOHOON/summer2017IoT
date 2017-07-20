@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E3269"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.missy.mainactivity.PMActivity"
@@ -14,7 +13,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="0.6"
-        android:background="#1E3269"
         android:orientation="vertical">
 
         <LinearLayout
@@ -111,8 +109,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -147,7 +144,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level1 : Good"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
 
             </LinearLayout>
@@ -157,8 +153,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -198,7 +193,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level2 : Moderate"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
             </LinearLayout>
 
@@ -207,8 +201,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -250,7 +243,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level3 : Unhealthy for Sensitive"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
             </LinearLayout>
 
@@ -259,8 +251,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -301,7 +292,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level4  :  Unhealthy"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
@@ -309,8 +299,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -351,7 +340,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level5 : Very Unhealthy"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
             </LinearLayout>
 
@@ -360,8 +348,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#1E3269">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -401,7 +388,6 @@
                     android:layout_height="fill_parent"
                     android:gravity="center_vertical"
                     android:text="Level6 : Hazardous"
-                    android:textColor="#ffffff"
                     android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
