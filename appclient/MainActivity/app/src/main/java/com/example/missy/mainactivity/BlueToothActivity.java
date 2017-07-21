@@ -38,7 +38,7 @@ public class BluetoothActivity extends AppCompatActivity
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             BluetoothChatFragment fragment = new BluetoothChatFragment();
-            transaction.replace(R.id.sample_content_fragment, fragment);
+            //transaction.replace(R.id.sample_content_fragment, fragment);
             transaction.commit();
         }
     }
