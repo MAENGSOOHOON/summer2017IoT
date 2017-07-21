@@ -136,6 +136,10 @@
         "source": "C:\\Users\\Missy\\.android\\build-cache\\6cca3151a44f1c4eef05d51b28962e031824c979\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
+        "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_device_access_bluetooth_searching.png",
+        "source": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\src\\main\\res\\drawable\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Missy\\.android\\build-cache\\996ee3ad679ed0a8a9a6176c7d969de2fa313808\\output\\res\\drawable\\notification_bg.xml"
     },
