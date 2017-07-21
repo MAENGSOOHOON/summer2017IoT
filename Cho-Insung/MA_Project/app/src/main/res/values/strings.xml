@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MA_005_002</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event">Event</string>
+    <string name="title_activity_hu">Hu</string>
+    <string name="title_activity_su">Su</string>
+    <string name="title_activity_gongji">Gongji</string>
+    <string name="title_activity_zoom">Zoom</string>
+    <string name="title_activity_gong_ji2">GongJi2</string>
+</resources>
