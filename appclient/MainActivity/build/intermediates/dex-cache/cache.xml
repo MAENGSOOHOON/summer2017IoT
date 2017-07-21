@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Missy\Desktop\MainActivity\app\libs\mpandroidchartlibrary-2-2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e5455fb794bfcbeb75da252dffd907794614f7fd">
+        <dex dex="C:\Users\Missy\Desktop\MainActivity\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-2-4_ca3f20e3dab9fab06cd5498849ce1b93bd143a0c.jar" />
+    </item>
+
+</items>
