@@ -8,4 +8,6 @@
     tools:context="com.example.missy.mainactivity.BluetoothActivity"
     tools:showIn="@layout/app_bar_bluetooth">
 
+    
+
 </android.support.constraint.ConstraintLayout>
