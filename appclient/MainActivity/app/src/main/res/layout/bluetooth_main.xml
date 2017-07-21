@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:id="@+id/sample_main_layout">
 
-    <ViewAnimator
-        android:id="@+id/sample_output"
+    <fragment
+        android:name="com.example.missy.mainactivity.LogFragment"
+        android:id="@+id/log_fragment"
         android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1">
-
-        <fragment
-            android:id="@+id/log_fragment"
-            android:name="com.example.missy.mainactivity.LogFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </ViewAnimator>
+        android:layout_height="match_parent" />
 
     <View
         android:layout_width="match_parent"
@@ -24,10 +17,10 @@
         android:background="@android:color/darker_gray" />
 
     <FrameLayout
+        android:name="Bcom.example.missy.mainactivity.BluetoothChatFragment"
         android:id="@+id/sample_content_fragment"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="2" />
 
 </LinearLayout>
-

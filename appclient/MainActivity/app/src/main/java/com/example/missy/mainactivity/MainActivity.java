@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity
             Intent mov_log = new Intent(this, LoginActivity.class);
             startActivity(mov_log);
         } else if(id == R.id.nav_blue){
-            Intent mov_bl = new Intent(this, BlueToothActivity.class);
-            startActivity(mov_bl);
+            Intent mov_blue = new Intent(this, BluetoothActivity.class);
+            startActivity(mov_blue);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

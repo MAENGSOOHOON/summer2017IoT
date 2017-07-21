@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -52,8 +52,8 @@
             android:label="@string/title_activity_now"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BlueToothActivity"
-            android:label="@string/title_activity_blue_tooth"
+            android:name=".BluetoothActivity"
+            android:label="@string/title_activity_bluetooth"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
