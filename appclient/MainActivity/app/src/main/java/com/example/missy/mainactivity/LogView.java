@@ -18,7 +18,6 @@ package com.example.missy.mainactivity;
 import android.app.Activity;
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.TextView;
 
 /** Simple TextView which is used to output log data received through the LogNode interface.
@@ -53,22 +52,22 @@ public class LogView extends TextView implements LogNode {
 
         // For the purposes of this View, we want to print the priority as readable text.
         switch(priority) {
-            case Log.VERBOSE:
+            case android.util.Log.VERBOSE:
                 priorityStr = "VERBOSE";
                 break;
-            case Log.DEBUG:
+            case android.util.Log.DEBUG:
                 priorityStr = "DEBUG";
                 break;
-            case Log.INFO:
+            case android.util.Log.INFO:
                 priorityStr = "INFO";
                 break;
-            case Log.WARN:
+            case android.util.Log.WARN:
                 priorityStr = "WARN";
                 break;
-            case Log.ERROR:
+            case android.util.Log.ERROR:
                 priorityStr = "ERROR";
                 break;
-            case Log.ASSERT:
+            case android.util.Log.ASSERT:
                 priorityStr = "ASSERT";
                 break;
             default:
@@ -78,7 +77,7 @@ public class LogView extends TextView implements LogNode {
         // Handily, the Log class has a facility for converting a stack trace into a usable string.
         String exceptionStr = null;
         if (tr != null) {
-            exceptionStr = Log.getStackTraceString(tr);
+            exceptionStr = android.util.Log.getStackTraceString(tr);
         }
 
         // Take the priority, tag, message, and exception, and concatenate as necessary
