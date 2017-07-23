@@ -1,7 +1,0 @@
-#Wed Jul 19 22:24:08 PDT 2017
-base.0=C\:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f8ef0f98d0674a1ac1c86b2bc335f968535fa407
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8876d3b4a354372cf0dcb06647cb883579c79e3c\\classes.dex
-base.1=C\:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8876d3b4a354372cf0dcb06647cb883579c79e3c
-file.0=C\:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f8ef0f98d0674a1ac1c86b2bc335f968535fa407\\classes.dex
