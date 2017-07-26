@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\018bce933d31a3fef61f6e86c2295c017b57524e\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\018bce933d31a3fef61f6e86c2295c017b57524e\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Missy\\.android\\build-cache\\24098b5e1a3be8bde52e33165a91787eb293d678\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },

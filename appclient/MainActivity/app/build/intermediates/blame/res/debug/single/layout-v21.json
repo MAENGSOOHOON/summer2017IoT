@@ -1,11 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\2b979a516065f2161b8e8c9297c83fca31596de6\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\2b979a516065f2161b8e8c9297c83fca31596de6\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Missy\\.android\\build-cache\\996ee3ad679ed0a8a9a6176c7d969de2fa313808\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\2b979a516065f2161b8e8c9297c83fca31596de6\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Missy\\.android\\build-cache\\996ee3ad679ed0a8a9a6176c7d969de2fa313808\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\aodtngns\\.android\\build-cache\\2b979a516065f2161b8e8c9297c83fca31596de6\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
