@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\aodtngns\\Documents\\GitHub\\summer2017IoT\\appclient\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Missy\\Desktop\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
