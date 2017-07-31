@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\air.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\air.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_login_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_login_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\history.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\blue_tooth.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\blue_tooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\now.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\now.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_now_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_now_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_health_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_health_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\health.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\health.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_bluetooth_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_bluetooth_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_pm_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_pm_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_air_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_air_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pm.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\pm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Missy\\Desktop\\PAP\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_history_drawer.xml",
+        "source": "C:\\Users\\Missy\\Desktop\\PAP\\app\\src\\main\\res\\menu\\activity_history_drawer.xml"
+    }
+]
